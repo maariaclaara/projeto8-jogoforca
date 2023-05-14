@@ -1,5 +1,9 @@
+import Letters from "./components/Letters";
 
 export default function App () {
-
-prompt('qual seu nome')
+      return (
+         <div>
+            <Letters />
+         </div>
+      )
 }
