@@ -5,3 +5,14 @@
 * body {
   font-family: "Roboto", sans-serif;
 }
+
+.container-letters {
+  height: 313px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  background-color: aqua;
+}
