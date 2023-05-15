@@ -5,36 +5,54 @@
 * body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
 }
 
 .container-game {
   height: 667px;
+  width: 934px;
   margin-top: 59px;
   margin-left: 38px;
   margin-right: 53px;
-  display: flex;
-  justify-content: space-around;
   background-color: blue;
 }
 
-.select-word {
+.div-button-word {
+  height: 410px;
   width: 323px;
+  margin-top: 30px;
+  margin-left: 603px;
+  background-color: aqua;
 }
 
-.buttonSelect {
-  background-color: #27AE60;
-  width: 200px;
-  height: 60px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+.clickButton{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+ button {
+  width: 200px;
+  height: 60px;
+  background-color: #27AE60;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
   color: #FFFFFF;
   border-radius: 8px;
- 
+  margin-left: 123px;
+  border: none;
 }
+
+
+.div-word {
+  width: 323px;
+}
+
+
 
 .container-buttons {
   margin-top: 70px;
@@ -47,6 +65,22 @@
   flex-wrap: wrap;
   column-gap: 12px;
   row-gap: 11px;
+}
+
+.underline-word {
+  font-family: 'Noto Sans' sans-serif;
+  font-size: 50px;;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  width: 323px;
+  height: 68px;
+  letter-spacing: 20px;
+  background-color: yellow;
 }
 
 .container-buttons button {

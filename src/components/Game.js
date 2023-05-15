@@ -12,10 +12,25 @@ export default function Game ({figureGame, gameStart, play, otherItem, nivel, co
                 </div>
             </div>
 
-            <div className="select-word">
-                <div>
-            <button className = "buttonSelect"> Escolher Palavra </button>
+            <div className="div-button-word">
+                <div className="clickButton">
+                    <button 
+                        data-test="choose-word" 
+                        className = ""
+                        onCLick= {gameStart}
+                        disabled= {play}> 
+
+                        Escolher Palavra 
+                    </button>
                 </div>
+
+                <div className="div-word">
+                    <p 
+                        data-test="word"
+                        className="word-selected"
+                        answer={otherItem}
+                    />
+            </div>
         </div>
     </div>
 
