@@ -16,7 +16,7 @@ export default function Game ({figureGame, gameStart, play, otherItem, nivel, co
                 <div className="clickButton">
                     <button 
                         data-test="choose-word" 
-                        className = ""
+                        className = "buttonInicial"
                         onCLick= {gameStart}
                         disabled= {play}> 
 
@@ -27,7 +27,7 @@ export default function Game ({figureGame, gameStart, play, otherItem, nivel, co
                 <div className="div-word">
                     <p 
                         data-test="word"
-                        className="word-selected"
+                        className={`underline-word ${nivel}`}
                         answer={otherItem}
                     />
             </div>
