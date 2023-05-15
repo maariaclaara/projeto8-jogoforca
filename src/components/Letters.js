@@ -6,8 +6,7 @@ export default function Letters (clickLetter, play) {
     const alfabeto = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
     return (
-        <div className="container-letters">
-            <div className="buttons">
+            <div className="container-buttons">
                 {alfabeto.map((selectButton) => (
 
                     <Buttons
@@ -18,7 +17,6 @@ export default function Letters (clickLetter, play) {
                     />
                 ))}
              </div>
-        </div>
     );
 }
 

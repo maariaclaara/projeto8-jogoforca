@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom"
+import ReactDOM from "react-dom";
+import App from "./App";
 import "../src/css/reset.css";
 import "../src/css/style.css";
-import App from "./App"
 
 
 const root = App();
