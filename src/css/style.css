@@ -17,6 +17,25 @@
   background-color: blue;
 }
 
+.select-word {
+  width: 323px;
+}
+
+.buttonSelect {
+  background-color: #27AE60;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-radius: 8px;
+ 
+}
+
 .container-buttons {
   margin-top: 70px;
   margin-bottom: 152px;

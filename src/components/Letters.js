@@ -1,3 +1,5 @@
+/* RENDERIZANDO CONJUNTO DE BOTÕES COM AS LETRAS */
+
 import React, { useState } from "react";
 
 
@@ -19,6 +21,9 @@ export default function Letters (clickLetter, play) {
              </div>
     );
 }
+
+
+/* INICIAR COM LETRAS DESABILITADAS */
 
 function Buttons ({click, start, buttons}){
 
