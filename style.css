@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-game {
+  height: 466px;
+  width: 934px;
+  margin-top: 59px;
+  margin-left: 38px;
+  margin-right: 53px;
+  background-color: blue;
+}
+
+.div-button-word {
+  height: 410px;
+  width: 323px;
+  margin-top: 30px;
+  margin-left: 603px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clickButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickButton button {
+  width: 200px;
+  height: 60px;
+  background-color: #27AE60;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 123px;
+  border: none;
+}
+
+.div-word {
+  width: 323px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.underline-word {
+  font-family: 'Noto Sans' sans-serif;
+  font-size: 50px;;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  width: 323px;
+  height: 68px;
+  letter-spacing: 20px;
+}
+
+.container-buttons {
+  margin-top: 70px;
+  margin-bottom: 152px;
+  margin-right: 150px;
+  margin-left: 211px;
+  height: 91px;
+  width: 664px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 11px;
+}
+
+.buttonInicial button {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  background: #9FAAB5;
+  border: 1px solid #7AA7C7;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #798A9F;
+}
+
+.button-click {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #7AA7C7;
+  border-radius: 3px;
+  background-color: #9FAAB5;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #39739D;
+}
+
+.button-unclick {
+  border-radius: 3px;
+  background-color: #E1ECF4;
+  border: 1px solid #7AA7C7;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #39739D;
+}
