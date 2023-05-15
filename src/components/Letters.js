@@ -34,7 +34,7 @@ function Buttons ({click, start, buttons}){
     }
 
     return (
-        <button data-test="letter"
+        <button className="buttonInicial" data-test="letter"
             
             onClick={() => {
                 click();

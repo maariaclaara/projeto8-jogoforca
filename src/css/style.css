@@ -11,7 +11,7 @@ body {
 }
 
 .container-game {
-  height: 667px;
+  height: 466px;
   width: 934px;
   margin-top: 59px;
   margin-left: 38px;
@@ -24,7 +24,10 @@ body {
   width: 323px;
   margin-top: 30px;
   margin-left: 603px;
-  background-color: aqua;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .clickButton{
@@ -67,7 +70,6 @@ body {
   width: 323px;
   height: 68px;
   letter-spacing: 20px;
-  background-color: yellow;
 }
 
 .container-buttons {
@@ -83,15 +85,21 @@ body {
   row-gap: 11px;
 }
 
-.container-buttons button {
+.buttonInicial button {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  background: #9FAAB5;
+  border: 1px solid #7AA7C7;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
   display: flex;
   align-items: center;
   text-align: center;
-  width: 40px;
-  height: 40px;
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #798A9F;
   color: #798A9F;
 }
 

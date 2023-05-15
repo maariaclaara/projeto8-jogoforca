@@ -29,10 +29,11 @@ export default function Game ({figureGame, gameStart, play, otherItem, nivel, co
                         data-test="word"
                         className={`underline-word ${nivel}`}
                         answer={otherItem}
-                    />
+                    >
+                        {condition}
+                    </p>
             </div>
         </div>
     </div>
-
-    )
-};
+  );
+}
